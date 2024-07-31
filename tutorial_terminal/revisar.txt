@@ -1,0 +1,70 @@
+    1  learnpack start
+    2  mkdir tutorial_terminal
+    3  cd tutorial_terminal 
+    4  touch hello_world.py
+    5  nano hello_world.py
+    6  mkdir scripts_python
+    7  mv hello_world.py scripts_phyton
+    8  mkdir scripts_bash
+    9  cd scripts_bash
+   10  touch ejecuta_python.sh
+   11  nano ejecuta_phyton.sh
+   12  cd ..
+   13  rm scripts_python
+   14  rmdir scripts_python
+   15  ls
+   16  rm scripts_phyton
+   17  touch hello_world.py
+   18  nano hello_world.py
+   19  mkdir scripts_python 
+   20  mv hello_world.py scripts_python
+   21  cd scripts_bash
+   22  nano ejecuta_python.sh 
+   23  chmod +x
+   24  chmod +x ./ejecuta_python.sh 
+   25  chmod +x /workspace/exercise-postcard/tutorial_terminal/scripts_bash/ejecuta_python.sh
+   26  ./ejecuta_python.sh 
+   27  cd ..
+   28  cd scripts_python
+   29  cp hello_world.py copia_hello_world.py
+   30  nano copia_hello_world.py 
+   31  phyton3 copia_hello_world.py 
+   32  python3 copia_hello_world.py 
+   33  /home/gitpod/.pyenv/shims/python /workspace/exercise-postcard/tutorial_terminal/scripts_python/copia_hello_world.py
+   34  nano copia_hello_world.py
+   35  cd tutorial_terminal
+   36  cd res
+   37  cd scripts_python
+   38  cd res
+   39  cd .
+   40  cd scripts_python
+   41  cd ..
+   42  nano copia_hello_world.py 
+   43  python3 copia_hello_world.py 
+   44  nano copia_hello_world.py 
+   45  python3 copia_hello_world.py 
+   46  nano copia_hello_world.py 
+   47  python3 copia_hello_world.py 
+   48  rm hello_world.py 
+   49  ls
+   50  cd..
+   51  cd ..
+   52  cat res/text.txt
+   53  cat scripts_python/res/text.txt 
+   54  mkdir data
+   55  cd data
+   56  wget (https://getsamplefiles.com/download/tar/sample-1.tar),
+   57  wget https://drive.google.com/file/d/1-rnsyfybUyJdd_Q2n5nEIEuxJz8MxCN_/view?usp=sharing
+   58  tar -xvf view?usp=sharing
+   59* 
+   60  wget https://drive.google.com/file/d/1G2vr_PbsfDJ7hK-1AhBI8WDF5z89TzCs/view?usp=sharing
+   61  rm view\?usp\=sharing 
+   62  wget https://drive.google.com/file/d/1G2vr_PbsfDJ7hK-1AhBI8WDF5z89TzCs/view?usp=sharing
+   63  tar -xvf view?usp=sharing
+   64  rm view\?usp\=sharing 
+   65  tar -xvf sample-1.tar 
+   66  find -name "*.jpg"
+   67  pwd
+   68  history
+   69  cd ..
+   70  history > revisar.txt
